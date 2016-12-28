@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292439"
+    android:paddingTop="0dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical">
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="2"
+       android:layout_margin="0dp"
+       android:src = "@drawable/mainbackground"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_margin="12dp"
+        android:text="start"
+        android:background="@drawable/shape"
+        android:textSize="20dp"
+        android:onClick="start"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_margin="12dp"
+        android:text="settings"
+        android:background="@drawable/shape2"
+        android:textSize="20dp"
+        android:onClick="setting"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_margin="12dp"
+        android:text="about"
+        android:background="@drawable/shape3"
+        android:textSize="20dp"
+        android:onClick="about"/>
+
+
+      </LinearLayout>
+</LinearLayout>
